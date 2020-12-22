@@ -1,0 +1,6 @@
+#!/bin/sh
+
+(
+nc jupiter.challenges.picoctf.org 25103 || \
+telnet jupiter.challenges.picoctf.org 25103
+) | grep pico
