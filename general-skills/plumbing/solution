@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+(
+nc jupiter.challenges.picoctf.org 14291 || \
+telnet jupiter.challenges.picoctf.org 14291
+) > data
+
+grep pico data
