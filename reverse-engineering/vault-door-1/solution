@@ -1,0 +1,9 @@
+#!/bin/sh
+
+printf 'picoCTF{'
+printf '%s' $(
+	grep 'password\.charAt' VaultDoor1.java |
+		sort --version-sort |
+		cut -d"'" -f2
+	)
+printf '}\n'
