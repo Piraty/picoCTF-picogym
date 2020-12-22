@@ -1,0 +1,3 @@
+#!/bin/sh
+
+printf 'picoCTF{%s}\n' "$(grep 'return.*password' VaultDoorTraining.java | cut -d'"' -f2)"
