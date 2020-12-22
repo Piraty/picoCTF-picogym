@@ -1,0 +1,4 @@
+#!/bin/sh
+
+strings strings | grep pico || \
+rabin2 -z strings | grep pico | awk '{print $8;}'
