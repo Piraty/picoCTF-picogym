@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+# obtained with help from
+#   * https://github.com/yyyyyyyan/rockstar-py
+#   * https://codewithrockstar.com/online
+# inputs: 10, 170
+
+answer = [ 66, 79, 78, 74, 79, 86, 73]
+res = ""
+for c in answer:
+    res += chr(c)
+print("picoCTF{%s}" % res)
