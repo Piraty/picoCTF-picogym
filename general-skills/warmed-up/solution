@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+
+print("picoCTF{%d}" % 0x3D)
