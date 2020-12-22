@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+# rockstar programming language
+# * https://esolangs.org/wiki/Rockstar
+# * https://codewithrockstar.com/docs
+
+# obtained from online interpreter at https://codewithrockstar.com/online
+answer = [ 114, 114, 114, 111, 99, 107, 110, 114, 110, 48, 49, 49, 51, 114]
+res = ""
+for c in answer:
+    res += chr(c)
+print("picoCTF{%s}" % res)
