@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+
+print("picoCTF{%s}" % str(bin(42)).lstrip("0b"))
