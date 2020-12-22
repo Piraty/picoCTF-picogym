@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 ./crack-the-server.py | grep pico
