@@ -1,0 +1,21 @@
+# simple integer overflow.
+
+Printing the flag is guarded by a simple balance check.
+So we need to "fix" our balance first by exploiting the overflow bug in the
+'buy not the flag' branch before we can buy the real flag.
+
+## Increase our balance
+
+Select 'Defintely not the flag Flag' item.
+
+To make `total_cost` overflow (so it is negative) to actually reach the line
+which updates `account_balance`, enter a value so that
+1. `total_cost = 900*number_flags` overflows
+2. `account_balance = account_balance - total_cost` underflows
+
+input >= INT_MAX/900 + a few more
+min input: 2386095
+
+## buy the flag
+
+'cause now we have enough $
