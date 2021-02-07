@@ -1,6 +1,6 @@
 # picoCTF - picogym
 
-picoGym Score: 2700
+picoGym Score: 2950
 
 This repo contains solutions to a few CTF problems of picoCTF's picogym.
 
